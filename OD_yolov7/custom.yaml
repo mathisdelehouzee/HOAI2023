@@ -1,0 +1,11 @@
+
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: ./Small/train  # 118287 images
+val: ./Small/val  # 5000 images
+
+# number of classes
+nc: 20
+
+# class names
+names: [ 'camera','weapon','luggage and bags','baseball batt', 'knife','drone','lifejacket','bomb','person','handgun','shotgun','rifle','backpack','briefcase','handbag','suitcase','axe','hammer','dagger','sword' ]
