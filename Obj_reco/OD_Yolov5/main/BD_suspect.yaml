@@ -1,0 +1,17 @@
+path: ../datasets/BD_suspect
+
+train: images/train
+val: images/val
+test: images/test
+
+nc: 6
+
+names: [
+  'Person',
+  'Knife',
+  'LifeJacket',
+  'Bag',
+  'Baseball bat',
+  'Gun'
+]
+  
